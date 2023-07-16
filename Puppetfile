@@ -4,11 +4,12 @@ forge 'https://forge.puppet.com'
 # Versions should be updated to be the latest at the time you start
 mod 'puppetlabs-inifile', '6.1.0'
 #mod 'puppetlabs/stdlib',  '7.0.1'
-mod 'puppetlabs-stdlib', '9.2.0'
+mod 'puppetlabs-stdlib', '8.6.0'
 mod 'puppetlabs-puppet_agent', '4.14.0'
-mod 'puppetlabs-apt', '9.1.0'
+mod 'puppetlabs-apt', '8.5.0'
 #mod 'puppetlabs/concat',  '7.0.1'
 #mod 'puppetlabs-acl' '4.1.0'
+mod 'puppetlabs-facts', '1.4.0'
 
 
 # Modules from Git
