@@ -1,7 +1,7 @@
 # An example profile
 class profile::example {
-"windows":
-{
+case $::kernel {
+"windows": {
 class { 'puppet_agent':
     package_version => '7.23.0',
    }
@@ -11,5 +11,6 @@ class { 'puppet_agent':
 class { 'puppet_agent':
     package_version => '7.23.0',
    }
+}
 }
 }
