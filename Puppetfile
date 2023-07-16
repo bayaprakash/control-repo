@@ -6,6 +6,7 @@ mod 'puppetlabs-inifile', '6.1.0'
 #mod 'puppetlabs/stdlib',  '7.0.1'
 mod 'puppetlabs-stdlib', '8.0.0'
 mod 'puppetlabs-puppet_agent', '4.14.0'
+mod 'puppetlabs-apt','10.0.0'
 #mod 'puppetlabs/concat',  '7.0.1'
 #mod 'puppetlabs-acl' '4.1.0'
 
